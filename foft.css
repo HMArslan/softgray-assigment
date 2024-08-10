@@ -1,0 +1,475 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    margin: 0%;
+}
+.nave {
+    align-items: center;
+   width: 100%;
+   height: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+.taxt{
+    background: url(https://media.licdn.com/dms/image/D4D12AQFzirxnf9xw5Q/article-cover_image-shrink_600_2000/0/1671774320363?e=2147483647&v=beta&t=RtGR_pMsLaE3v7oUk8t95ZCL-exnmYJq8lypJFceGVw);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1 {
+    padding-left: 100px;
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: 700;
+
+}
+
+.list ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-right: 90px;
+    font-weight: 500;
+
+}
+
+.list .num {
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.h2 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* text-align: center; */
+    width: 100%;
+    height: 100%;
+    padding-top: 8%;
+    /* border: 2px solid greenyellow; */
+    
+}
+
+.para {
+    text-align: center;
+    font-weight: 200;
+}
+.taxt{
+    height: 100vh;
+    width: 100% ;
+}
+
+ /* .section {
+    margin-top: 7%;
+    gap: 10px;
+    /* justify-content: center; */
+    text-align: center;
+    display: flex;  
+    border: 2px solid tomato;
+    width: 100%;
+    height:60vh;    
+    /* align-items: center; */
+}  */
+.section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+.icon{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    /* justify-content:space-around; */
+    gap: 15%;    
+
+}
+.icon .div1{
+    width: 100px;
+    height: 100px;
+    background-color:#41c8f4;
+    border-radius: 50px;
+    margin-left: 7%;
+}
+
+.icon i{
+   font-size: 50px;
+   color: azure;
+   margin-top: 25px;
+   margin-left: 20px;
+    }
+.icon .div2 img{
+    width: 125px;
+    height: 125px;
+}
+.icon .div3 {
+    width: 100px;
+    height: 100px;
+    background-color:#41c8f4;
+    border-radius: 50px;
+    margin-left: 5%;
+
+}
+.div3 i{
+    font-size: 50px;
+    
+}
+.icon .dev4 {
+    width: 100px;
+    height: 100px;
+    background-color:#41c8f4;
+    border-radius: 50px;
+    /* margin-left: 5%; */
+}
+.dev4 i{
+    font-size: 50px;
+}
+
+.section1{
+    display: flex;
+    font-size: 20px;
+    gap: 17%;
+}
+.section1 .div3{
+    margin-left: 50px;
+}
+
+.section2{
+    display: flex;
+    font-size: 13px;
+    gap: 10%;
+ 
+}
+.section1 .div1{
+    margin-left: 8%;
+}
+.section2 .diva1{
+margin-left: 4%;
+/* background-color: #822c2c; */
+}
+
+
+
+
+
+
+
+.second {
+    width: 100%;
+    height: 100vh;
+    background: lightgray;
+    /* display: flex;
+    align-items: center; */
+    /* padding-left: 10px; */
+}
+
+.div {
+    padding-top: 30px;
+    /* border: 2px solid yellowgreen; */
+    display: inline-block;
+}
+
+.div1 {
+    font-size: 20px;
+    color: aqua;
+}
+
+.sec1 {
+    width: 80%;
+    display: flex;
+    /* border: 2px solid black; */
+    height: 50vh;
+    margin: auto;
+}
+
+.sec1 .div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    /* border: 2px solid yellow; */
+}
+
+.sec1 .div1 .heading {
+    /* border: 2px solid gold; */
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+.sec1 .div1 p {
+    color: rgb(99, 98, 98);
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sec1 .div1 div {
+    font-size: 15px;
+    color: rgb(99, 98, 98);
+}
+
+.sec1 .div1 .but {
+    font-size: 16px;
+    width: 20%;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    background: white;
+    color: black;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+.section1 .div3{
+    margin-right: 20px;
+}
+
+.sec2 {
+    width: 80%;
+    margin: auto;
+    height: 52vh;
+    border: 2px solid red;
+    /* overflow: auto; */
+    display: flex;
+    background-color: #fff;
+
+}
+
+.sec2 {
+    position: relative;
+}
+
+.sec2 .back img {
+    width: 300px;
+    height: 300px;
+    padding-top: 80px;
+
+
+}
+
+.sec2 .back2 img {
+    /* padding: 20px; */
+    width: 400px;
+    height: 10px;
+    /* margin-left: 100px; */
+    padding-top: 78px;
+
+}
+
+.sec2 .div {
+    position: absolute;
+    top: -20px;
+    margin-left: 85px;
+    /* border: 2px solid rgb(7, 8, 7); */
+    font-weight: 600;
+    font-size: 7px;
+}
+
+
+.sec2 .back1 {
+    color: rgb(11, 12, 12);
+    font-size: 15px;
+    position: absolute;
+    padding: 70px;
+    padding-top: 20px;
+}
+
+.sec2 .div3 {
+
+    position: absolute;
+    top: 10px;
+    font-size: 7px;
+    font-weight: 600;
+    /* border: 2px solid yellowgreen; */
+    margin-left: 120px;
+}
+.section2 .diva4{
+    margin-right: 2%;
+}
+.section2 .div3{
+    margin-left: 4%;
+}
+
+.back2 {
+    background: url(https://pymstatic.com/14375/conversions/libros-psicologia-small-16_9.jpg)
+}
+
+.back2 {
+    width: 40%;
+    height: 220px;
+    margin-top: 80px;
+}
+
+.back3 {
+    position: absolute;
+    top: 20px;
+    margin-left: 130px;
+}
+
+.back4 {
+    background: url(https://img.freepik.com/premium-vector/illustration-butterfly-logo-design-with-letter-e-concept_715639-2378.jpg);
+}
+
+.back4 {
+    width: 20%;
+    height: 300px;
+
+}
+
+.div4 {
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.div5 {
+    font-size: 55px;
+    font-weight: 600;
+    margin-left: 60px;
+    color: coral;
+
+}
+
+
+.main1 {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    gap: 10%;
+    margin-left: 7%;
+
+}
+.last{
+    width: 28%;
+    height: 50%;    
+    margin-top: 10%;  
+    position: relative;    
+    margin-left: 30px;
+  }
+  .last img{
+    width: 300px;
+    height: 170px;
+  }
+  .last .div{
+    font-size: 25px;
+    font-weight: 600;
+    /* pad: 20px; */
+    position: absolute;
+    top: -90px;
+}
+.last span{
+    font-size: 10px;
+    color: rgb(8, 199, 199);
+    /* padding-left: 10px; */
+    margin-left: 20px;
+    
+  }
+  .last a{
+    position: absolute;
+    /* bottom: -30px; */
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(35, 162, 241);
+    font-weight: 400;
+  }
+  .last p{
+    margin-top: 20px;
+    position: absolute;
+    /* bottom: -140px;   */
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+
+  .last1{
+    width: 25%;
+    height: 50%;    
+    margin-top: 10%;  
+    position: relative;    
+  }
+  .last1 img{
+    width: 300px;
+    height: 170px;
+  }
+  .last1 .div{
+    font-size: 25px;
+    font-weight: 600;
+    /* pad: 20px; */
+    position: absolute;
+    top: -90px;
+}
+.last1 span{
+    font-size: 10px;
+    color: rgb(8, 199, 199);
+    /* padding-left: 10px; */
+    margin-left: 20px;
+    
+  }
+  .last1 a{
+    position: absolute;
+    /* bottom: -30px; */
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(35, 162, 241);
+    font-weight: 400;
+  }
+  .last1 p{
+    margin-top: 20px;
+    position: absolute;
+    /* bottom: -140px;   */
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+
+  .last2{
+    width: 28%;
+    height: 50%;    
+    margin-top: 10%;  
+    position: relative;    
+  }
+  .last2 img{
+    width: 300px;
+    height: 170px;
+  }
+  .last2 .div{
+    font-size: 25px;
+    font-weight: 600;
+    /* pad: 20px; */
+    position: absolute;
+    top: -90px;
+}
+.last2 span{
+    font-size: 10px;
+    color: rgb(8, 199, 199);
+    padding-left: 10px;
+    /* margin-left: 20px; */
+    
+  }
+  .last2 a{
+    position: absolute;
+    /* bottom: -30px; */
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(35, 162, 241);
+    font-weight: 400;
+  }
+  .last2 p{
+    margin-top: 20px;
+    position: absolute;
+    /* bottom: -140px;   */
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+
